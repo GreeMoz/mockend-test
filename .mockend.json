@@ -12,5 +12,34 @@
   },
   "Login": {
     "token": "string"
+  },
+  "Client": {
+    "name": "string",
+    "balance": "int",
+    "enabled": "boolean",
+    "phone": "string",
+    "email": "string",
+    "registeredAt": "date",
+    "tariffs": "Tariff[]",
+    "loans": "Loan[]"
+  },
+  "Loan": {
+    "startDate": "date",
+    "duration": "date",
+    "amount": "int"
+  },
+  "Tariff": {
+    "name": "string",
+    "contractName": "string",
+    "contractData": "string",
+    "owner": "string",
+    "traffic": "Traffic[]",
+    "mac": "string",
+    "ip": "string",
+    "lastPaymentAt": "date"
+  },
+  "Traffic": {
+    "date": "date",
+    "amount": "int"
   }
 }
