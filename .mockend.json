@@ -11,6 +11,6 @@
     "post": "Post"
   },
   "Login": {
-    "token": "string"
+    "token": "123"
   }
 }
